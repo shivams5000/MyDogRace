@@ -1,0 +1,28 @@
+﻿UNIT TEST:
+
+
+TEST CASES:
+1. Punter.cs class 
+	- Is an Abstract class having an abstract method: PlaceBet().
+
+2. Bet.cs class file
+	- contains the bet amount.
+	- the dog on which bet is placed.
+	- the guy who placed the bet.
+
+3. Guy.cs class file
+	- this class is inherited from punter abstract class and implemented its methods.
+	- defines the guy who placed the bet of some amount on a particular dog
+
+4.GreyHound.cs class file
+	- defines starting position of dog.
+	- defines race track length.
+	- location of dogs.
+
+
+The program runs like this. 
+1. Select the Guy (from: Shivam, Smith, Rishi)
+2. Set your bet amount between $5 to $15 (as min. is $5 and max. is $15) on a particular dog.
+3. Press RACE button.
+4. if the Bettor wins he will get the bet amount else he looses the bet amount.
+5. When all bettor looses, game is over.
